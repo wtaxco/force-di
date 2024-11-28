@@ -13,6 +13,6 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "61.0",
   "packageAliases": {
-    "force-di": "0HoW700000000cjKAA"
+    "Force DI": "0HoW700000000cjKAA"
   }
 }
