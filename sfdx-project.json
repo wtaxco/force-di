@@ -3,10 +3,10 @@
     {
       "path": "force-di",
       "default": true,
-      "package": "Force DI",
-      "versionName": "Version 0.1.0",
-      "versionNumber": "0.1.0.NEXT",
-      "versionDescription": "Initial version of Force DI package"
+      "package": "force-di",
+      "versionName": "Version 0.1.1",
+      "versionNumber": "0.1.1.NEXT",
+      "versionDescription": "Updated package name to comply with Salesforce requirements"
     }
   ],
   "name": "force-di",
@@ -14,7 +14,6 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "61.0",
   "packageAliases": {
-    "force-di": "0HoW700000000cjKAA",
-    "force-di@0.1.0-1": "04tW70000000WUXIA2"
+    "force-di": "0HoW700000000cjKAA"
   }
 }
