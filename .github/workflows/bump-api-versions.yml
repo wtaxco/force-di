@@ -1,0 +1,15 @@
+name: Bump API versions
+
+on:
+  workflow_dispatch:
+    inputs:
+      jira-issue:
+        description: "Jira issue number to include in the commit message"
+        type: string
+        required: true
+jobs:
+  bump-api-versions:
+    uses: wtaxco/wtax-github-actions-workflows/.github/workflows/bump-sfdx-metadata-api-version.yml@main
+    with:
+      instance-url: https://wtax.my.salesforce.com
+      jira-issue: ${{ inputs.jira-issue }}

@@ -2,10 +2,17 @@
   "packageDirectories": [
     {
       "path": "force-di",
-      "default": true
+      "package": "Force DI",
+      "versionName": "Version 0.1.0",
+      "versionNumber": "0.1.0.NEXT",
+      "default": true,
+      "versionDescription": "Initial version of Force DI package"
     }
   ],
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "61.0"
+  "sourceApiVersion": "61.0",
+  "packageAliases": {
+    "force-di": "0HoW700000000cjKAA"
+  }
 }
