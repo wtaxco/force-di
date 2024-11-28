@@ -4,9 +4,9 @@
       "path": "force-di",
       "default": true,
       "package": "force-di",
-      "versionName": "Version 0.1.1",
-      "versionNumber": "0.1.1.NEXT",
-      "versionDescription": "Updated package name to comply with Salesforce requirements"
+      "versionName": "Version 0.2.0",
+      "versionNumber": "0.2.0.NEXT",
+      "versionDescription": "Renamed force-di to force-app for workflow consistency"
     }
   ],
   "name": "force-di",

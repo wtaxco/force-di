@@ -47,3 +47,22 @@ Some of these blogs and videos are not necessarily Salesforce-specific but give 
 - [Injection Design Pattern](https://martinfowler.com/articles/injection.html) by Martin Fowler
 - [Dependency Injection is not the same as Dependency Inversion](https://lostechies.com/derickbailey/2011/09/22/dependency-injection-is-not-the-same-as-the-dependency-inversion-principle/) by Derick Bailey
 - [Dependency Injection](https://stackify.com/dependency-injection) by Thorben Janssen
+
+------------------------------------------------------
+
+## Fork-Specific Notes
+
+### Syncing with Upstream Updates
+
+The upstream repository uses `force-di`, while this fork has renamed it to `force-app`. To sync with upstream updates:
+
+1. Fetch changes from the upstream `master` branch:
+   ```bash
+      git fetch upstream master
+      git merge upstream/master
+    ```
+2. If `force-di` is reintroduced, rename it directly to `force-app`:
+     ```bash
+        mv force-di force-app
+     ```
+   This ensures that all workflows relying on the force-app directory continue to function seamlessly.
